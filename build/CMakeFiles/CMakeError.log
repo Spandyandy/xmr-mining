@@ -1,0 +1,179 @@
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c058/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c058.dir/build.make CMakeFiles/cmTC_0c058.dir/build
+make[1]: Entering directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c058.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -march=native -mtune=native     -o CMakeFiles/cmTC_0c058.dir/CheckSymbolExists.c.o   -c /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_0c058.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0c058.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0c058.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0c058/fast' failed
+make: *** [cmTC_0c058/fast] Error 2
+
+File /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edd61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edd61.dir/build.make CMakeFiles/cmTC_edd61.dir/build
+make[1]: Entering directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edd61.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -march=native -mtune=native     -o CMakeFiles/cmTC_edd61.dir/CheckSymbolExists.c.o   -c /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_edd61.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_edd61.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_edd61.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_edd61/fast' failed
+make: *** [cmTC_edd61/fast] Error 2
+
+File /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9150/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9150.dir/build.make CMakeFiles/cmTC_e9150.dir/build
+make[1]: Entering directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9150.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -march=native -mtune=native     -o CMakeFiles/cmTC_e9150.dir/CheckSymbolExists.c.o   -c /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_e9150.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e9150.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e9150.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e9150/fast' failed
+make: *** [cmTC_e9150/fast] Error 2
+
+File /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_525e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_525e7.dir/build.make CMakeFiles/cmTC_525e7.dir/build
+make[1]: Entering directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_525e7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -march=native -mtune=native     -o CMakeFiles/cmTC_525e7.dir/CheckSymbolExists.c.o   -c /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_525e7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_525e7.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_525e7.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_525e7/fast' failed
+make: *** [cmTC_525e7/fast] Error 2
+
+File /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d7bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d7bc.dir/build.make CMakeFiles/cmTC_5d7bc.dir/build
+make[1]: Entering directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d7bc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -march=native -mtune=native     -o CMakeFiles/cmTC_5d7bc.dir/CheckSymbolExists.c.o   -c /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5d7bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d7bc.dir/link.txt --verbose=1
+/usr/bin/cc  -march=native -mtune=native      CMakeFiles/cmTC_5d7bc.dir/CheckSymbolExists.c.o  -o cmTC_5d7bc -rdynamic 
+CMakeFiles/cmTC_5d7bc.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5d7bc.dir/build.make:97: recipe for target 'cmTC_5d7bc' failed
+make[1]: *** [cmTC_5d7bc] Error 1
+make[1]: Leaving directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5d7bc/fast' failed
+make: *** [cmTC_5d7bc/fast] Error 2
+
+File /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39a46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39a46.dir/build.make CMakeFiles/cmTC_39a46.dir/build
+make[1]: Entering directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39a46.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -march=native -mtune=native  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_39a46.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39a46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39a46.dir/link.txt --verbose=1
+/usr/bin/cc  -march=native -mtune=native  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_39a46.dir/CheckFunctionExists.c.o  -o cmTC_39a46 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_39a46.dir/build.make:97: recipe for target 'cmTC_39a46' failed
+make[1]: *** [cmTC_39a46] Error 1
+make[1]: Leaving directory '/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_39a46/fast' failed
+make: *** [cmTC_39a46/fast] Error 2
+
+

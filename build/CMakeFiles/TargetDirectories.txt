@@ -1,0 +1,9 @@
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/install.dir
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/list_install_components.dir
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/rebuild_cache.dir
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/xmr-stak-c.dir
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/xmr-stak-backend.dir
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/edit_cache.dir
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/xmr-stak.dir
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/install/local.dir
+/home/kjh9491/xmr-stak-2.1.0/build/CMakeFiles/install/strip.dir
